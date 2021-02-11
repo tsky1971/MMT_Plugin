@@ -1,9 +1,9 @@
 //Copyright(c) 2017 Viktor Kuropiatnyk "BoredEngineer"
 
-#include "MMTPluginPCH.h"
-#include "MMTBPFunctionLibrary.h"
 #include "MMTVehicleSuspensionComponent.h"
+#include "MMTBPFunctionLibrary.h"
 
+#include "MMTPluginPCH.h"
 
 // Sets default values for this component's properties
 UMMTVehicleSuspensionComponent::UMMTVehicleSuspensionComponent(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)

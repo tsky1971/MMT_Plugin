@@ -2,7 +2,9 @@
 
 #pragma once
 
-#include "ModuleManager.h"
+//#include "CoreMinimal.h"
+#include "Modules/ModuleInterface.h"
+//#include "ModuleManager.h"
 
 //DECLARE_LOG_CATEGORY_CLASS(someClassLog, Log, All)
 

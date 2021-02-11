@@ -5,8 +5,11 @@ public class MMT : ModuleRules
 {
 	public MMT(ReadOnlyTargetRules Target) : base (Target)
     {
-        PrivateIncludePaths.AddRange(new string[] { "MMT/Private" });
-        PCHUsage = ModuleRules.PCHUsageMode.NoSharedPCHs;
+		//bLegacyPublicIncludePaths = false;
+		//ShadowVariableWarningLevel = WarningLevel.Error;
+		//PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
+		//DefaultBuildSettings = BuildSettingsVersion.V2;
+		PrivateIncludePaths.AddRange(new string[] { "MMT/Private" });
         PrivatePCHHeaderFile = "Private/MMTPluginPCH.h";
 
         PublicDependencyModuleNames.AddRange(

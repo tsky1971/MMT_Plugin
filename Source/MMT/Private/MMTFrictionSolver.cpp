@@ -1,8 +1,8 @@
 //Copyright(c) 2017 Viktor Kuropiatnyk "BoredEngineer"
 
-#include "MMTPluginPCH.h"
-#include "MMTBPFunctionLibrary.h"
 #include "MMTFrictionSolver.h"
+#include "MMTBPFunctionLibrary.h"
+#include "MMTPluginPCH.h"
 
 
 void UMMTFrictionSolver::Initialize()
